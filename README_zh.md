@@ -13,7 +13,7 @@ npm i @taiyuuki/create-scaffold
 根据模板创建项目
 
 ```ts
-import { createProject } from 'create-scaffold'
+import { createProject } from '@taiyuuki/create-scaffold'
 
 createProject(templateFolder, options)
 ```
@@ -85,7 +85,7 @@ E:/template
 根据模板创建项目：
 
 ```js
-import { createProject } from 'create-scaffold'
+import { createProject } from '@taiyuuki/create-scaffold'
 
 createProject('E:/template', {
     output: 'E:/test-project',

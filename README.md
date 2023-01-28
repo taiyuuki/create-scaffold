@@ -15,7 +15,7 @@ npm i @taiyuuki/create-scaffold
 Create project from template
 
 ```ts
-import { createProject } from 'create-scaffold'
+import { createProject } from '@taiyuuki/create-scaffold'
 
 createProject(templateFolder, options)
 ```
@@ -88,7 +88,7 @@ For more detailed EJS syntax, please refer to [EJS](https://ejs.co/index.html).
 Create Project:
 
 ```js
-import { createProject } from 'create-scaffold'
+import { createProject } from '@taiyuuki/create-scaffold'
 
 createProject('E:/template', {
     output: 'E:/test-project',
