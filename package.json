@@ -1,0 +1,38 @@
+{
+  "name": "@taiyuuki/create-scaffold",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taiyuuki/create-scaffold"
+  },
+  "bugs": "https://github.com/taiyuuki/create-scaffold/issues",
+  "homepage": "https://github.com/taiyuuki/create-scaffold#readme",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts ./",
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "publish": "npm publish --registry https://registry.npmjs.org --access=public"
+  },
+  "keywords": [],
+  "author": "taiyuuki <taiyuuki@qq.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@taiyuuki/eslint-config-ts": "^0.0.5",
+    "@types/fs-extra": "^11.0.1",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.11.18",
+    "eslint": "^8.10.0",
+    "tsup": "^6.4.0",
+    "vitest": "^0.24.1"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.12",
+    "fs-extra": "^11.1.0",
+    "lodash": "^4.17.21"
+  }
+}
