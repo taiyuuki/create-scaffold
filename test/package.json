@@ -5,10 +5,10 @@
   "main": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/taiyuuki/example"
+    "url": "https://github.com/taiyuuki/create-scaffold"
   },
-  "bugs": "https://github.com/taiyuuki/example/issues",
-  "homepage": "https://github.com/taiyuuki/example#readme",
+  "bugs": "https://github.com/taiyuuki/create-scaffold/issues",
+  "homepage": "https://github.com/taiyuuki/create-scaffold#readme",
   "scripts": {
     "lint": "eslint --ext .js,.ts ./",
     "dev": "tsup --watch",

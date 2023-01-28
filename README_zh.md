@@ -7,7 +7,7 @@
 安装
 
 ```bash
-npm i create-scaffold -D
+npm i @taiyuuki/create-scaffold
 ```
 
 根据模板创建项目

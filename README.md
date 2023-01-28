@@ -9,7 +9,7 @@ Create a custom scaffold using a template.
 Install
 
 ```bash
-npm i create-scaffold -D
+npm i @taiyuuki/create-scaffold
 ```
 
 Create project from template
