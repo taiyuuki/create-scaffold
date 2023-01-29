@@ -46,9 +46,6 @@ var createProject = function(templateFolder, options) {
   for (const rawPath of files) {
     const ext = (0, import_path.extname)(rawPath);
     const targetRelativePath = rawPath.split("/").map((name) => {
-      if (name.startsWith("_")) {
-        name = name.slice(1);
-      }
       if (name.endsWith(".ejs")) {
         name = name.slice(0, name.length - 4);
       }

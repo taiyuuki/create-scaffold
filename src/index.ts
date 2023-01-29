@@ -10,9 +10,6 @@ export const createProject = function <T extends  { output: string }>(templateFo
   for (const rawPath of files) {
     const ext = extname(rawPath)
     const targetRelativePath = rawPath.split('/').map(name => {
-      if (name.startsWith('_')) {
-        name = name.slice(1)
-      }
       if (name.endsWith('.ejs')) {
         name = name.slice(0, name.length - 4)
       }
